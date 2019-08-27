@@ -64,6 +64,12 @@ Follow the instructions for [running Kubernetes locally via Minikube](https://ku
 #### 2.2 Hosted on IBM Cloud
 Follow the instructions for [creating a Kubernetes cluster in IBM Cloud](https://cloud.ibm.com/docs/containers/container_index.html#clusters).
 
+#### 2.2.1 For IBM cloud Lite account users
+Create the local persistent volumes manually by running
+
+```shell
+kubectl create -f kubernetes/local-volume-for-lite.yaml
+```
 ### 3. Create the service and deployment
 
 Either run ['scripts/quickstart.sh'](scripts/quickstart.sh), or run the individual commands listed in it:
