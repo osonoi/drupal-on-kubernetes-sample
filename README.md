@@ -68,7 +68,7 @@ Follow the instructions for [creating a Kubernetes cluster in IBM Cloud](https:/
 Create the local persistent volumes manually by running
 
 ```shell
-kubectl create -f kubernetes/local-volume-for-lite.yaml
+kubectl create -f kubernetes/local-volumes-for-lite.yaml
 ```
 ### 3. Create the service and deployment
 
