@@ -75,7 +75,6 @@ kubectl create -f kubernetes/local-volume-for-lite.yaml
 Either run ['scripts/quickstart.sh'](scripts/quickstart.sh), or run the individual commands listed in it:
 
 ```shell
-kubectl create -f kubernetes/local-volumes.yaml
 kubectl create -f kubernetes/postgres.yaml
 kubectl create -f kubernetes/drupal.yaml
 ```
