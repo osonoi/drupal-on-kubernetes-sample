@@ -104,14 +104,14 @@ ID                                                 Public IP        Private IP  
 kube-dal13-cr896f6348d71b4fd1ba151bc7c32abd46-w1   <REDACTED>       10.187.85.198   free           normal   Ready
 ```
 
-Database Varue
+Access the newly deployed Drupal site via http://<IP_ADDRESS>:30080
+
+## Database Varue settings
 Please use database name, user name, password in the kubernetes/postgres.yaml
 regards to host name please execute following command and check the IP address of postgresql service
 ```shell
 kubectl get service
 ```
-
-Access the newly deployed Drupal site via http://<IP_ADDRESS>:30080
 
 ## Learn more
 
